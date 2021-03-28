@@ -7,13 +7,13 @@ import java.util.Iterator;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.util.CellReference;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 
-public class FileManager {
 
+public class FileManager1 {
+	
 	public static void main(String[] args) {
 		Object[][] ob=getData("C:\\Users\\aakbu\\Desktop\\Class\\Selenium.xlsx","personal");
 		for(Object[] datas:ob) {
@@ -28,17 +28,10 @@ public class FileManager {
 	}
 	
 	
-//	public static void main(String[] args) {
-//		Object [][]s=getValue("‪‪C:\\Users\\aakbu\\Desktop\\Class\\Selenium.xlsx","personal");
-//		for (Object[] objects :s ) {
-//			for (Object s1 : objects) {
-//				System.out.println(s1);
-//			}	
-//		}
-//		
-//	//	System.out.println(readToExcelByCell("A3","‪‪C:\\Users\\aakbu\\Desktop\\Class\\Selenium.xlsx","personal"));
-//		
-//	}
+	
+	
+	
+	
 	public static Object[][] getData(String path,String sname) {
 		Object [][] value=null;
 		DataFormatter dr=new DataFormatter();
@@ -72,28 +65,7 @@ public class FileManager {
 		
 		return value;
 	}
-/*
 	
-	public static String readToExcelByCell(String cellNumber,String excelFilePath,String SheetName) {
-		String value = null;
-		// cellNumber.replace(oldChar, newChar)
-		cellNumber = cellNumber.replace(":", "");
-		try {
-			InputStream file = new FileInputStream(excelFilePath);
-			XSSFWorkbook workBook = new XSSFWorkbook(file);
-			XSSFSheet sheetName = workBook.getSheet(SheetName);
-			CellReference cf = new CellReference(cellNumber);
-			Row row = sheetName.getRow(cf.getRow());
-			Cell cell = row.getCell(cf.getCol());
-			value = cell.getStringCellValue();
-			// System.out.println(value);
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (Exception e) {
-			System.out.println(e.getMessage());
-		}
-		return value;
-	}*/
 	
+
 }
