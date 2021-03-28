@@ -19,17 +19,13 @@ public class PropertyReader {
 	 * @return String 
 	 */
 	public static String readProperty(String key) {
-		
 		Properties property = new Properties();
-		
 		try {
 			FileInputStream fileInput = new FileInputStream(new File("src/test/resources/config.properties"));
 			property.load(fileInput);
-			
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
 		}
-		
 		String value = property.getProperty(key);
 		return value;
 		
