@@ -14,34 +14,54 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class APIs {
+	/**
+	 * POST
+	 * GET
+	 * PATCH
+	 * GET
+	 * DELETE
+	 * GET
+	 * @param args
+	 */
 	public static void main(String[] args) {
-		//Get call
-//	Response get=GET("/customers/5fb708e8e4a69400176c4366");
-//	Utilities.verifyStatuCode(200, get.getStatusCode());
 		//Post call
-//	HashMap<String,String> hm=new HashMap<String,String>();
-//    hm.put("firstName", "Habib");
-//    hm.put("lastName","Mahfuz");
-//    hm.put("phone","4545656567");
-//    hm.put("email", "masum@yahoo.com");
-//    Response post=POST("/customers",myPayload(hm));
-//	System.out.println(post.getStatusCode());
-//	System.out.println("Response: "+post.asString());
-		//Delete call
-	Response delete=DELETE("/customers/6060c3a7e516d40017d03f72");
-	System.out.println(delete.getStatusCode());
-	System.out.println("Response: "+delete.asString());
+//		HashMap<String,String> hm=new HashMap<String,String>();
+//	    hm.put("firstName", "Habib");
+//	    hm.put("lastName","Mahfuz");
+//	    hm.put("phone","4545656567");
+//	    hm.put("email", "masum@yahoo.com");
+//	    Response post=POST("/customers",myPayload(hm));
+//		System.out.println(post.getStatusCode());
+//		System.out.println("Response: "+post.asString());
+	Response get=GET("/customers/60664e7a673829001730d560");
+	JSONObject getRe = new JSONObject(get.asString());
+	AppContains.LOG.info("==========Before change===========");
+	AppContains.LOG.info(getRe.toString(4));
+	
+	//Utilities.verifyStatuCode(200, get.getStatusCode());
 		//Patch call
+	HashMap<String,String> hm=new HashMap<String,String>();
+	    hm.put("firstName", "Md");
+	    hm.put("lastName","Habib");
+	    hm.put("phone","4567678878");
+	    hm.put("email", "habib@yahoo.com");
+	    JSONObject payload=Utilities.getJsonObject(hm);
+		System.out.println("==========During change===========");
+	Response patch=PATCH("customers/60664e7a673829001730d560",payload);
+	JSONObject patch1 = new JSONObject(patch.asString());
+	System.out.println(patch1.toString(4));
+	System.out.println("==========After change===========");
+	Response get1=GET("/customers/60664e7a673829001730d560");
+	JSONObject get11 = new JSONObject(get1.asString());
+	System.out.println(get11.toString(4));
+	
+	//Delete call
+//	Response delete=DELETE("/customers/6060c3a7e516d40017d03f72");
+//	System.out.println(delete.getStatusCode());
+//	System.out.println("Response: "+delete.asString());
 	}
 	public static String myPayload(HashMap<String,String> hm) {
-		JSONObject obj = new JSONObject();
-//	     obj.put("firstName", "Md");
-//	      obj.put("lastName","Masum");
-//	      obj.put("phone","4545656567");
-//	      obj.put("email", "masum@yahoo.com");
-			for(Entry<String, String> e:hm.entrySet()) {
-				obj.put(e.getKey(), e.getValue());
-			}
+		JSONObject obj = new JSONObject(hm);
 	      return obj.toString();
 	}
 	
@@ -57,7 +77,7 @@ public class APIs {
 		RequestSpecification request = RestAssured.given();
 		Response res=request
 				.contentType(ContentType.JSON)
-				.body(payload)//playload
+				.body(payload)
 				.post(endpoint);
 		return res;
 	}
@@ -69,4 +89,14 @@ public class APIs {
 				.delete(endpoint);
 		return res;
 	}
+	public static Response PATCH(String endpoint,JSONObject payload) {
+		RestAssured.baseURI=AppContains.BASE_URI;
+		RequestSpecification request = RestAssured.given();			
+		Response res=request
+				.contentType(ContentType.JSON)
+				.body(payload.toString())
+				.patch(endpoint);
+		return res;
+	}
+	
 }
