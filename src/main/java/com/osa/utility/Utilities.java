@@ -47,7 +47,19 @@ public class Utilities {
 	 * @param expected
 	 * @param actual
 	 */
-	public static void verifyStatuCode(int expected, int actual) {
+	public static void verifyStatu(int expected, int actual) {
+		AppContains.LOG.info("Expected value is: "+expected);
+		AppContains.LOG.info("Acutal value is: "+actual);
+		Assert.assertEquals(actual, expected);
+		AppContains.LOG.info("The actual and expected value is matched. ");
+	}
+	/**
+	 * thie method will take expected String values and compare them and 
+	 * assert then provide the report. 
+	 * @param expected
+	 * @param actual
+	 */
+	public static void verifyStatu(String expected, String actual) {
 		AppContains.LOG.info("Expected value is: "+expected);
 		AppContains.LOG.info("Acutal value is: "+actual);
 		Assert.assertEquals(actual, expected);
