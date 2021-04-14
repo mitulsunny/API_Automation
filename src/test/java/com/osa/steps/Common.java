@@ -1,9 +1,12 @@
 package com.osa.steps;
 
+import java.util.HashMap;
+import java.util.Iterator;
 import java.util.List;
 
 import com.osa.api.APIs;
 import com.osa.api.RequestHelper;
+import com.osa.api.UsersValues;
 import com.osa.api.Format;
 import com.osa.base.AppContains;
 
@@ -14,6 +17,12 @@ import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 
 public class Common {
+	public static void main(String[] args) {
+		HashMap<String,String> h=new HashMap<String,String>();
+		h.put("a", "AAA");
+		h.put("b", "BBBBB");
+		System.out.println(h.get("a"));
+	}
 	RequestHelper cv=new RequestHelper();
 	@Given("^the authentication is completed here$")
 	public void the_authentication_is_completed_here() throws Throwable {
@@ -28,8 +37,15 @@ public class Common {
 	}
 	@Then("^Verifying the following values$")
 	public void verifying_the_following_values(DataTable data) throws Throwable {
-		      List<List<String>> val= data.raw();
-		      cv.verifyResponse(val);
+		HashMap<String,List<UsersValues>> hm=cv.verifyResponse(data);
+		List<UsersValues> userValue=hm.get("val");
+			for (UsersValues usersValues : userValue) {
+				cv.verifyAPIRes(usersValues.getXpath(),usersValues.getExpectedValue());
+			}
+			
+		
+	
+		
 	}
 
 }
