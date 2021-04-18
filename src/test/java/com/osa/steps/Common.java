@@ -9,6 +9,7 @@ import com.osa.api.RequestHelper;
 import com.osa.api.UsersValues;
 import com.osa.api.Format;
 import com.osa.base.AppContains;
+import com.osa.utility.Utilities;
 
 import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
@@ -29,9 +30,10 @@ public class Common {
 			System.out.println("The authentication is done!!!");
 	}
 	@When("^I am sending \"([^\"]*)\" request to this endpoint \"([^\"]*)\"$")
-	public void i_am_sending_request_to_this_endpoint(String requestType, String endpoint) throws Throwable {
+	public void i_am_sending_request_to_this_endpoint(String requestType, String endpoint, DataTable data) throws Throwable {
 		 AppContains.LOG.info("Sending a "+requestType+" to "+endpoint);
-		 Response res_get=APIs.executeRequest(requestType,endpoint);
+		 Response res_get=APIs.executeRequest(requestType,endpoint, data);
+		 Utilities.verifyStatu(res_get.getStatusCode(), Integer.parseInt(data.raw().get(0).get(2)));
 		 cv.getResponse(res_get);
 		 AppContains.LOG.info(Format.prettyPrint(res_get));
 	}
@@ -42,10 +44,6 @@ public class Common {
 			for (UsersValues usersValues : userValue) {
 				cv.verifyAPIRes(usersValues.getXpath(),usersValues.getExpectedValue());
 			}
-			
-		
-	
-		
 	}
 
 }
