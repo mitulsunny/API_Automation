@@ -804,3 +804,302 @@
 2021-04-14 18:41:31 INFO  Utilities:63 - Expected value is: 2345678765
 2021-04-14 18:41:31 INFO  Utilities:64 - Acutal value is: 2345678765
 2021-04-14 18:41:31 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:14 INFO  Utilities:33 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 13:34:17 INFO  Utilities:36 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:18 INFO  Utilities:33 - Sending a GET to /customers/5fbe8ffae338390017999a61
+2021-04-18 13:34:18 INFO  Utilities:36 - {
+    "firstName": "MD",
+    "lastName": "Islam",
+    "phone": "2345678765",
+    "userId": "5fbe8ffae338390017999a61",
+    "email": "MDIslam@gmail.com"
+}
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: MD
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: MD
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: Islam
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: Islam
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:34:18 INFO  Utilities:63 - Expected value is: 2345678765
+2021-04-18 13:34:18 INFO  Utilities:64 - Acutal value is: 2345678765
+2021-04-18 13:34:18 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:38:51 INFO  Utilities:33 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 13:38:55 INFO  Utilities:36 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 13:38:56 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 13:38:56 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 13:38:56 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:38:56 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 13:38:56 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 13:38:56 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 13:38:56 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 13:38:56 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 13:38:56 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:20:35 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:22:33 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:23:50 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:26:45 INFO  Utilities:33 - Sending a POST to /customers
+2021-04-18 14:28:31 INFO  Utilities:33 - Sending a POST to /customers
+2021-04-18 14:31:03 INFO  Utilities:33 - Sending a POST to /customers
+2021-04-18 14:31:35 INFO  Utilities:33 - Sending a POST to /customers
+2021-04-18 14:31:45 INFO  Utilities:36 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-18T18:31:46.687Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "607c7b12d34bf7001709e7ce",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-18T18:31:46.687Z"
+}
+2021-04-18 14:32:45 INFO  Utilities:33 - Sending a POST to /customers
+2021-04-18 14:32:48 INFO  Utilities:36 - {
+    "lastName": "Habib",
+    "firstName": "Md",
+    "createdAt": "2021-04-18T18:32:49.128Z",
+    "phone": "3434565678",
+    "__v": 0,
+    "_id": "607c7b51d34bf7001709e7cf",
+    "email": "habib@yahoo.com",
+    "updatedAt": "2021-04-18T18:32:49.128Z"
+}
+2021-04-18 14:35:06 INFO  Utilities:33 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:35:08 INFO  Utilities:36 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:35:08 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:35:08 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:35:08 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:35:08 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:35:08 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:35:08 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:35:08 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:35:08 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:35:08 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:35:59 INFO  Utilities:33 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:36:01 INFO  Utilities:36 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:36:01 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:36:01 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:36:01 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:36:01 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:36:01 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:36:01 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:36:01 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:36:01 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:36:01 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:42:00 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:42:34 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:42:36 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:42:36 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:42:36 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:42:36 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:42:36 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:42:36 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:42:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:42:36 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:42:36 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:42:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:42:36 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:42:36 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:42:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:43:07 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:43:09 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:43:09 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:43:09 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:43:09 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:43:10 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:43:10 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:43:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:43:10 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:43:10 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:43:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:43:10 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:43:10 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:43:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:43:10 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:44:46 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:44:48 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:44:48 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:44:48 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:44:48 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:44:48 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:44:48 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:44:48 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:44:48 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:44:48 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:44:48 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:44:48 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:45:49 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:45:51 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:45:51 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:45:51 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:45:51 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:45:51 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:45:51 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:45:51 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:45:51 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:45:51 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:45:51 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:45:51 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:46:59 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:47:01 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:47:02 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:47:02 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:47:02 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:02 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:47:02 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:47:02 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:02 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:47:02 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:47:02 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:02 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:47:02 INFO  Utilities:38 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-18T18:47:03.849Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "607c7ea7d34bf7001709e7d0",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-18T18:47:03.849Z"
+}
+2021-04-18 14:47:32 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:47:34 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:47:34 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:47:34 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:47:34 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:47:34 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:47:34 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:47:34 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:34 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:47:34 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:47:34 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:34 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:47:34 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:47:34 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:47:34 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:47:35 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:47:35 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:47:35 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:47:35 INFO  Utilities:38 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-18T18:47:36.513Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "607c7ec8d34bf7001709e7d1",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-18T18:47:36.513Z"
+}
+2021-04-18 14:51:10 INFO  Utilities:34 - Sending a GET to /customers/6069f0308858e20017d698d8
+2021-04-18 14:51:12 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:51:12 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:51:12 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:51:12 INFO  Utilities:38 - {
+    "firstName": "Mahfuz",
+    "lastName": "Akbur",
+    "phone": "5435435543",
+    "userId": "6069f0308858e20017d698d8",
+    "email": "md.abkur@yahoo.com"
+}
+2021-04-18 14:51:12 INFO  Utilities:63 - Expected value is: Mahfuz
+2021-04-18 14:51:12 INFO  Utilities:64 - Acutal value is: Mahfuz
+2021-04-18 14:51:12 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:12 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-18 14:51:12 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-18 14:51:12 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:12 INFO  Utilities:63 - Expected value is: 5435435543
+2021-04-18 14:51:12 INFO  Utilities:64 - Acutal value is: 5435435543
+2021-04-18 14:51:12 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:12 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-18 14:51:13 INFO  Utilities:51 - Expected value is: 200
+2021-04-18 14:51:13 INFO  Utilities:52 - Acutal value is: 200
+2021-04-18 14:51:13 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-18 14:51:13 INFO  Utilities:38 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-18T18:51:14.226Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "607c7fa2d34bf7001709e7d2",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-18T18:51:14.226Z"
+}
+2021-04-18 14:51:13 INFO  Utilities:63 - Expected value is: Md
+2021-04-18 14:51:13 INFO  Utilities:64 - Acutal value is: Md
+2021-04-18 14:51:13 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:13 INFO  Utilities:63 - Expected value is: Obaidulla
+2021-04-18 14:51:13 INFO  Utilities:64 - Acutal value is: Obaidulla
+2021-04-18 14:51:13 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:13 INFO  Utilities:63 - Expected value is: 3475612578
+2021-04-18 14:51:13 INFO  Utilities:64 - Acutal value is: 3475612578
+2021-04-18 14:51:13 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-18 14:51:13 INFO  Utilities:63 - Expected value is: mitul.li@yahoo.com
+2021-04-18 14:51:13 INFO  Utilities:64 - Acutal value is: mitul.li@yahoo.com
+2021-04-18 14:51:13 INFO  Utilities:66 - The actual and expected value is matched. 
