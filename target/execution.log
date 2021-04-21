@@ -1103,3 +1103,923 @@
 2021-04-18 14:51:13 INFO  Utilities:63 - Expected value is: mitul.li@yahoo.com
 2021-04-18 14:51:13 INFO  Utilities:64 - Acutal value is: mitul.li@yahoo.com
 2021-04-18 14:51:13 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 17:48:05 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-21 17:48:15 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 17:48:15 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 17:48:15 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 17:48:15 INFO  Utilities:38 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-21T21:48:14.978Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60809d9ed4a8a30017c5769f",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-21T21:48:14.978Z"
+}
+2021-04-21 17:48:15 INFO  Utilities:63 - Expected value is: Md
+2021-04-21 17:48:15 INFO  Utilities:64 - Acutal value is: Md
+2021-04-21 17:48:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 17:48:15 INFO  Utilities:63 - Expected value is: Obaidulla
+2021-04-21 17:48:15 INFO  Utilities:64 - Acutal value is: Obaidulla
+2021-04-21 17:48:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 17:48:15 INFO  Utilities:63 - Expected value is: 3475612578
+2021-04-21 17:48:15 INFO  Utilities:64 - Acutal value is: 3475612578
+2021-04-21 17:48:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 17:48:15 INFO  Utilities:63 - Expected value is: mitul.li@yahoo.com
+2021-04-21 17:48:15 INFO  Utilities:64 - Acutal value is: mitul.li@yahoo.com
+2021-04-21 17:48:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 17:49:52 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-21 17:49:55 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 17:49:55 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 17:49:55 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 17:49:55 INFO  Utilities:38 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-21T21:49:55.224Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60809e03d4a8a30017c576a0",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-21T21:49:55.224Z"
+}
+2021-04-21 17:49:55 INFO  Utilities:63 - Expected value is: Md.
+2021-04-21 17:49:55 INFO  Utilities:64 - Acutal value is: Md
+2021-04-21 18:04:50 INFO  Utilities:34 - Sending a GET to /customers/5fb708e8e4a69400176c4366
+2021-04-21 18:04:51 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:04:51 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:04:51 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:04:51 INFO  Utilities:38 - {
+    "firstName": "Shamim",
+    "lastName": "Rahman",
+    "phone": "8938489797",
+    "userId": "5fb708e8e4a69400176c4366",
+    "email": "sahildip12@gmail.com"
+}
+2021-04-21 18:04:52 INFO  Utilities:63 - Expected value is: Shamim
+2021-04-21 18:04:52 INFO  Utilities:64 - Acutal value is: Shamim
+2021-04-21 18:04:52 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:04:52 INFO  Utilities:63 - Expected value is: Rahman
+2021-04-21 18:04:52 INFO  Utilities:64 - Acutal value is: Rahman
+2021-04-21 18:04:52 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:04:52 INFO  Utilities:63 - Expected value is: 8938489797
+2021-04-21 18:04:52 INFO  Utilities:64 - Acutal value is: 8938489797
+2021-04-21 18:04:52 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:04:52 INFO  Utilities:63 - Expected value is: sahildip12@gmail.com
+2021-04-21 18:04:52 INFO  Utilities:64 - Acutal value is: sahildip12@gmail.com
+2021-04-21 18:04:52 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:22:25 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:22:27 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:22:27 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:22:27 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:22:27 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:23:09 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:23:11 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:23:11 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:23:11 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:23:11 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:23:11 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:23:11 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:23:11 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:23:11 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:23:11 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:23:11 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:24:13 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:24:15 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:24:15 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:24:15 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:24:15 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:24:15 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:24:15 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:24:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:24:15 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:24:15 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:24:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:24:15 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:24:15 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:24:15 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:25:31 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:25:33 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:25:33 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:25:33 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:25:33 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:25:33 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:25:33 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:25:33 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:25:33 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:25:33 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:25:33 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:25:33 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:25:33 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:25:33 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:25:33 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:25:33 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:25:33 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:25:33 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:25:33 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:25:33 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:43 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:26:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:26:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:26:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:26:45 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:26:45 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:26:45 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:02 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:28:03 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:28:03 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:28:03 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:28:03 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:28:04 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:28:04 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:28:04 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:08 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:32:10 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:32:10 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:32:10 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:32:10 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:32:10 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:32:10 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:05 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:42:07 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:42:07 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:42:07 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:42:07 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:42:07 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:42:07 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:38 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:47:39 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:47:39 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:47:39 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:47:39 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:47:40 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:47:40 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:47:40 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:47:40 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:47:40 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:47:40 INFO  Utilities:63 - Expected value is: Md
+2021-04-21 18:47:40 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:48:42 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:48:44 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:48:44 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:48:44 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:48:44 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:48:44 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:48:44 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:48:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:48:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:48:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:48:45 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:48:45 INFO  Utilities:63 - Expected value is: Md
+2021-04-21 18:48:45 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:49:44 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:49:46 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:49:46 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:49:46 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: Akbur
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 347
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 347
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 5612345
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 5612345
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: Work
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: Work
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 646
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 646
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 5678789
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 5678789
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:49:46 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:49:46 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:46 INFO  Utilities:34 - Sending a GET to /students/6080a39cd52967001773ee2a
+2021-04-21 18:49:47 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:49:47 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:49:47 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:38 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "__v": 0,
+    "_id": "6080a39cd52967001773ee2a",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080aa7ad52967001773ee2f",
+            "localPhoneNumber": "4565678",
+            "type": "Day"
+        },
+        {
+            "localAreaCode": "333",
+            "__v": 0,
+            "_id": "6080aa8ad52967001773ee30",
+            "localPhoneNumber": "3333333",
+            "type": "Home"
+        },
+        {
+            "localAreaCode": "444",
+            "__v": 0,
+            "_id": "6080aaa3d52967001773ee31",
+            "localPhoneNumber": "4444444",
+            "type": "Cell"
+        }
+    ]
+}
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: Md
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: Md
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: Obaidulla
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: Obaidulla
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: Day
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: Day
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 333
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 333
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 3333333
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 3333333
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 444
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 444
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: 4444444
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: 4444444
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:49:47 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:49:47 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:49:47 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:54:56 INFO  Utilities:34 - Sending a GET to /students/6080a3dad52967001773ee2b
+2021-04-21 18:54:57 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:54:57 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:54:57 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:54:57 INFO  Utilities:38 - {
+    "firstName": "Mohammad",
+    "lastName": "Akbur",
+    "__v": 0,
+    "_id": "6080a3dad52967001773ee2b",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "347",
+            "__v": 0,
+            "_id": "6080a4b9d52967001773ee2c",
+            "localPhoneNumber": "5612345",
+            "type": "Work"
+        },
+        {
+            "localAreaCode": "646",
+            "__v": 0,
+            "_id": "6080a526d52967001773ee2d",
+            "localPhoneNumber": "5678789",
+            "type": "Cell"
+        },
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080a542d52967001773ee2e",
+            "localPhoneNumber": "4565678",
+            "type": "Home"
+        }
+    ]
+}
+2021-04-21 18:54:58 INFO  Utilities:63 - Expected value is: Mohammad
+2021-04-21 18:54:58 INFO  Utilities:64 - Acutal value is: Mohammad
+2021-04-21 18:54:58 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:54:58 INFO  Utilities:63 - Expected value is: Akburs
+2021-04-21 18:54:58 INFO  Utilities:64 - Acutal value is: Akbur
+2021-04-21 18:54:58 INFO  Utilities:34 - Sending a GET to /students/6080a39cd52967001773ee2a
+2021-04-21 18:55:03 INFO  Utilities:51 - Expected value is: 200
+2021-04-21 18:55:03 INFO  Utilities:52 - Acutal value is: 200
+2021-04-21 18:55:03 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:38 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "__v": 0,
+    "_id": "6080a39cd52967001773ee2a",
+    "phoneNumbers": [
+        {
+            "localAreaCode": "841",
+            "__v": 0,
+            "_id": "6080aa7ad52967001773ee2f",
+            "localPhoneNumber": "4565678",
+            "type": "Day"
+        },
+        {
+            "localAreaCode": "333",
+            "__v": 0,
+            "_id": "6080aa8ad52967001773ee30",
+            "localPhoneNumber": "3333333",
+            "type": "Home"
+        },
+        {
+            "localAreaCode": "444",
+            "__v": 0,
+            "_id": "6080aaa3d52967001773ee31",
+            "localPhoneNumber": "4444444",
+            "type": "Cell"
+        }
+    ]
+}
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Md
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Md
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Obaidulla
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Obaidulla
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 841
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 841
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 4565678
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 4565678
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Day
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Day
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 333
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 333
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 3333333
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 3333333
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Home
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Home
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 444
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 444
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: 4444444
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: 4444444
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Cell
+2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Cell
+2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
