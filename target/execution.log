@@ -2023,3 +2023,1121 @@
 2021-04-21 18:55:03 INFO  Utilities:63 - Expected value is: Cell
 2021-04-21 18:55:03 INFO  Utilities:64 - Acutal value is: Cell
 2021-04-21 18:55:03 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-25 13:22:04 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:22:39 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:25:45 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:29:09 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:29:35 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:29:38 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 13:29:38 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 13:29:38 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 13:30:59 INFO  Utilities:34 - Sending a POST to /customers
+2021-04-25 13:31:01 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 13:31:01 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 13:31:01 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 13:31:02 INFO  Utilities:39 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T17:31:02.395Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085a75686b589001735783d",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T17:31:02.395Z"
+}
+2021-04-25 13:36:39 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 13:36:42 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 13:36:42 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 13:36:42 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 13:36:42 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T17:36:42.612Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085a8aa86b589001735783e",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T17:36:42.612Z"
+}
+2021-04-25 13:48:23 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 13:48:25 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 13:48:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 13:48:25 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 13:48:26 INFO  Utilities:43 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T17:48:26.535Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085ab6a86b589001735783f",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T17:48:26.535Z"
+}
+2021-04-25 13:53:34 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 13:56:31 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 13:57:07 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 13:57:10 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 13:57:10 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 13:57:10 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 13:57:10 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T17:57:10.585Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085ad7686b5890017357840",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T17:57:10.585Z"
+}
+2021-04-25 13:57:10 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 13:57:40 INFO  Utilities:51 - Expected value is: 503
+2021-04-25 13:57:40 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:04:24 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:04:27 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:04:27 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:04:27 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:04:27 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:04:27.722Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085af2b86b5890017357841",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:04:27.722Z"
+}
+2021-04-25 14:04:27 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:08:23 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:08:25 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:08:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:08:25 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:08:25 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:08:26.012Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b01a86b5890017357842",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:08:26.012Z"
+}
+2021-04-25 14:08:25 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:09:54 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:09:55 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:09:55 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:09:55 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:09:56 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:09:56.510Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b07486b5890017357843",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:09:56.510Z"
+}
+2021-04-25 14:09:56 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:11:32 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:11:34 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:11:34 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:11:34 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:11:34 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:11:35.128Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b0d786b5890017357844",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:11:35.128Z"
+}
+2021-04-25 14:11:34 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:12:35 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:12:37 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:12:37 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:12:37 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:12:38 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:12:38.556Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b11686b5890017357845",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:12:38.556Z"
+}
+2021-04-25 14:12:38 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:13:25 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:13:27 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:13:27 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:13:27 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:13:28 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:13:28.475Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b14886b5890017357846",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:13:28.475Z"
+}
+2021-04-25 14:13:28 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:14:24 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:14:26 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:14:26 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:14:26 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:14:26 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:14:26.825Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b18286b5890017357847",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:14:26.825Z"
+}
+2021-04-25 14:14:26 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:15:52 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:15:54 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:15:54 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:15:54 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:15:54 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:15:54.836Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b1da86b5890017357848",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:15:54.836Z"
+}
+2021-04-25 14:15:54 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:17:05 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:17:06 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:17:06 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:17:06 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:17:07 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:17:07.531Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b22386b5890017357849",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:17:07.531Z"
+}
+2021-04-25 14:17:07 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:17:07 INFO  Utilities:52 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085b22386b5890017357849",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-25 14:19:16 INFO  Utilities:35 - Sending a POST to /customers
+2021-04-25 14:19:18 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:19:18 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:19:18 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:19:18 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:19:18.760Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085b2a686b589001735784a",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:19:18.760Z"
+}
+2021-04-25 14:19:18 INFO  Utilities:35 - Sending a GET to /customers/<userId>
+2021-04-25 14:19:18 INFO  Utilities:50 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085b2a686b589001735784a",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-25 14:24:17 INFO  Utilities:36 - Sending a GET to /customers/<userId>
+2021-04-25 14:36:54 INFO  Utilities:38 - Sending a GET to /customers/<userId>
+2021-04-25 14:37:52 INFO  Utilities:38 - Sending a GET to /customers/<userId>
+2021-04-25 14:39:02 INFO  Utilities:38 - Sending a GET to /customers/<userId>
+2021-04-25 14:45:32 INFO  Utilities:38 - Sending a GET to /customers/userId
+2021-04-25 14:46:04 INFO  Utilities:51 - Expected value is: 503
+2021-04-25 14:46:04 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:50:42 INFO  Utilities:48 - Sending a POST to /customers
+2021-04-25 14:50:44 INFO  Utilities:51 - Expected value is: 200
+2021-04-25 14:50:44 INFO  Utilities:52 - Acutal value is: 200
+2021-04-25 14:50:44 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-25 14:50:45 INFO  Utilities:53 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-25T18:50:45.500Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6085ba0586b589001735784b",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-25T18:50:45.500Z"
+}
+2021-04-25 14:50:45 INFO  Utilities:48 - Sending a GET to /customers/userId
+2021-04-25 14:51:15 INFO  Utilities:51 - Expected value is: 503
+2021-04-25 14:51:15 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 16:38:55 INFO  Utilities:44 - Sending a **POST** request to /customers
+2021-04-26 16:39:06 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 16:39:06 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 16:39:06 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 16:39:06 INFO  Utilities:50 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T20:39:09.489Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608724edc43ca400171dd537",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T20:39:09.489Z"
+}
+2021-04-26 16:39:06 INFO  Utilities:44 - Sending a **GET** request to /customers/<userId>
+2021-04-26 16:39:37 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 16:39:37 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 16:40:23 INFO  Utilities:44 - Sending a **POST** request to /customers
+2021-04-26 16:40:25 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 16:40:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 16:40:25 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 16:40:25 INFO  Utilities:50 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T20:40:27.666Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6087253bc43ca400171dd538",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T20:40:27.666Z"
+}
+2021-04-26 16:40:25 INFO  Utilities:44 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-26 16:40:25 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 16:40:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 16:40:25 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 16:40:25 INFO  Utilities:50 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-26 17:39:12 INFO  Utilities:44 - Sending a **POST** request to /customers
+2021-04-26 17:39:22 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:39:22 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:39:22 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:39:22 INFO  Utilities:50 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:39:22.041Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6087330aa45a6d00177c76e2",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:39:22.041Z"
+}
+2021-04-26 17:39:22 INFO  Utilities:44 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-26 17:39:22 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:39:22 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:39:22 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:39:22 INFO  Utilities:50 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-26 17:39:59 INFO  Utilities:44 - Sending a **POST** request to /customers
+2021-04-26 17:40:00 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:40:00 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:40:00 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:40:00 INFO  Utilities:50 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:40:00.644Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873330a45a6d00177c76e3",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:40:00.644Z"
+}
+2021-04-26 17:40:00 INFO  Utilities:44 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:40:30 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:40:30 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:42:46 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:42:47 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:42:47 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:42:47 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:42:47 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:42:47.734Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608733d7a45a6d00177c76e4",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:42:47.734Z"
+}
+2021-04-26 17:42:47 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:43:17 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:43:17 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:44:20 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:44:22 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:44:22 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:44:22 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:44:22 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:44:22.383Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873436a45a6d00177c76e5",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:44:22.383Z"
+}
+2021-04-26 17:44:22 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:44:52 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:44:52 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:45:53 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:45:54 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:45:54 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:45:54 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:45:54 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:45:54.656Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873492a45a6d00177c76e6",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:45:54.656Z"
+}
+2021-04-26 17:45:54 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:46:24 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:46:24 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:47:29 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:47:31 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:47:31 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:47:31 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:47:31 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:47:31.295Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608734f3a45a6d00177c76e7",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:47:31.295Z"
+}
+2021-04-26 17:47:31 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:48:01 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:48:01 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:48:31 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:48:33 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:48:33 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:48:33 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:48:33 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:48:33.556Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873531a45a6d00177c76e8",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:48:33.556Z"
+}
+2021-04-26 17:48:33 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 17:49:03 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 17:49:03 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:51:54 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:53:27 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:55:51 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 17:55:52 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 17:55:52 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 17:55:52 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 17:55:52 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T21:55:52.972Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608736e8a45a6d00177c76e9",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T21:55:52.972Z"
+}
+2021-04-26 17:55:52 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 18:00:04 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:00:05 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:00:05 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:00:05 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:00:05 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:00:05.872Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608737e5a45a6d00177c76ea",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:00:05.872Z"
+}
+2021-04-26 18:00:05 INFO  Utilities:36 - Sending a **GET** request to /customers/<6085a42086b589001735783b>
+2021-04-26 18:01:32 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:01:33 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:01:33 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:01:33 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:01:33 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:01:33.903Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6087383da45a6d00177c76eb",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:01:33.903Z"
+}
+2021-04-26 18:01:33 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:02:08 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:02:10 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:02:10 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:02:10 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:02:10 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:02:10.159Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873862a45a6d00177c76ec",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:02:10.159Z"
+}
+2021-04-26 18:02:10 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:03:31 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:03:32 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:03:32 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:03:32 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:03:32 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:03:32.693Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608738b4a45a6d00177c76ed",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:03:32.693Z"
+}
+2021-04-26 18:03:32 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:04:55 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:04:57 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:04:57 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:04:57 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:04:57 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:04:57.540Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873909a45a6d00177c76ee",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:04:57.540Z"
+}
+2021-04-26 18:04:57 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:05:27 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:05:27 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:06:28 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:06:30 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:06:30 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:06:30 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:06:30 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:06:30.195Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873966a45a6d00177c76ef",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:06:30.195Z"
+}
+2021-04-26 18:06:30 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:07:00 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:07:00 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:07:09 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:07:11 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:07:11 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:07:11 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:07:11 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:07:11.190Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6087398fa45a6d00177c76f0",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:07:11.190Z"
+}
+2021-04-26 18:07:11 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:07:41 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:07:41 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:08:53 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:08:55 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:08:55 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:08:55 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:08:55 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:08:55.171Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608739f7a45a6d00177c76f1",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:08:55.171Z"
+}
+2021-04-26 18:08:55 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:09:25 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:09:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:09:38 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:09:39 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:09:39 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:09:39 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:09:39 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:09:39.629Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873a23a45a6d00177c76f2",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:09:39.629Z"
+}
+2021-04-26 18:09:39 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:11:22 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:11:24 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:11:24 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:11:24 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:11:24 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:11:24.524Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873a8ca45a6d00177c76f3",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:11:24.524Z"
+}
+2021-04-26 18:11:24 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:11:54 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:11:54 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:12:27 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:12:28 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:12:28 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:12:28 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:12:28 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:12:28.666Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873acca45a6d00177c76f4",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:12:28.666Z"
+}
+2021-04-26 18:12:28 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:12:58 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:12:58 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:13:45 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:13:47 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:13:47 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:13:47 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:13:47 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:13:47.065Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873b1ba45a6d00177c76f5",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:13:47.065Z"
+}
+2021-04-26 18:13:47 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:14:17 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:14:17 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:15:21 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:15:22 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:15:22 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:15:22 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:15:22 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:15:22.705Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873b7aa45a6d00177c76f6",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:15:22.705Z"
+}
+2021-04-26 18:15:22 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:15:52 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:15:52 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:16:15 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-26 18:16:16 INFO  Utilities:51 - Expected value is: 200
+2021-04-26 18:16:16 INFO  Utilities:52 - Acutal value is: 200
+2021-04-26 18:16:16 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-26 18:16:16 INFO  Utilities:40 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-26T22:16:16.816Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60873bb0a45a6d00177c76f7",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-26T22:16:16.816Z"
+}
+2021-04-26 18:16:16 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-26 18:16:46 INFO  Utilities:51 - Expected value is: 503
+2021-04-26 18:16:46 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 17:57:52 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 17:58:02 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 17:58:02 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 17:58:02 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 17:58:02 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T21:58:02.220Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608888ea0f3e710017821076",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T21:58:02.220Z"
+}
+2021-04-27 17:58:02 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-27 17:58:32 INFO  Utilities:51 - Expected value is: 503
+2021-04-27 17:58:32 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 17:59:38 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 17:59:39 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 17:59:39 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 17:59:39 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 17:59:39 INFO  Utilities:43 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T21:59:39.936Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6088894b0f3e710017821077",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T21:59:39.936Z"
+}
+2021-04-27 17:59:39 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-27 18:00:10 INFO  Utilities:51 - Expected value is: 503
+2021-04-27 18:00:10 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:00:43 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:00:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:00:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:00:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:00:45 INFO  Utilities:43 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:00:45.818Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6088898d0f3e710017821078",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:00:45.818Z"
+}
+2021-04-27 18:00:45 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:00:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:00:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:00:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:00:45 INFO  Utilities:43 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:02:16 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:02:18 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:02:18 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:02:18 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:02:18 INFO  Utilities:43 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:02:18.426Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608889ea0f3e710017821079",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:02:18.426Z"
+}
+2021-04-27 18:02:18 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:02:18 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:02:18 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:02:18 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:02:18 INFO  Utilities:43 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:04:36 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:04:38 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:04:38 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:04:38 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:04:38 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:04:38.958Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "60888a760f3e71001782107a",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:04:38.958Z"
+}
+2021-04-27 18:04:38 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:04:39 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:04:39 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:04:39 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:04:39 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:40:07 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:40:09 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:40:09 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:40:09 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:40:09 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:40:09.181Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608892c90f3e71001782107b",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:40:09.181Z"
+}
+2021-04-27 18:40:09 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:40:09 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:40:09 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:40:09 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:40:09 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:40:54 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:41:06 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:41:06 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:41:06 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:41:06 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:41:06.212Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608893024c2383001733e174",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:41:06.212Z"
+}
+2021-04-27 18:41:06 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:41:06 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:41:06 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:41:06 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:41:06 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:48:03 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:48:05 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:48:05 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:48:05 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:48:06 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:48:05.945Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608894a54c2383001733e175",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:48:05.945Z"
+}
+2021-04-27 18:48:06 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:48:06 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:48:06 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:48:06 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:48:06 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:49:12 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:49:14 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:49:14 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:49:14 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:49:14 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:49:14.469Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608894ea4c2383001733e176",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:49:14.469Z"
+}
+2021-04-27 18:49:14 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:49:14 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:49:14 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:49:14 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:49:14 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 18:59:00 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 18:59:02 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:59:02 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:59:02 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:59:02 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T22:59:02.813Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608897364c2383001733e177",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T22:59:02.813Z"
+}
+2021-04-27 18:59:02 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 18:59:03 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 18:59:03 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 18:59:03 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 18:59:03 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 19:02:24 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:04:14 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:04:16 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:04:16 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:04:16 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:04:16 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T23:04:16.065Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608898704c2383001733e179",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T23:04:16.065Z"
+}
+2021-04-27 19:04:16 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 19:04:16 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:04:16 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:04:16 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:04:16 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 19:05:21 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:05:23 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:05:23 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:05:23 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:05:23 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T23:05:23.638Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608898b34c2383001733e17a",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T23:05:23.638Z"
+}
+2021-04-27 19:05:23 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 19:05:24 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:05:24 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:05:24 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:05:24 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 19:08:57 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:08:59 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:08:59 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:08:59 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:08:59 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T23:08:59.102Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6088998b4c2383001733e17b",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T23:08:59.102Z"
+}
+2021-04-27 19:08:59 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 19:08:59 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:08:59 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:08:59 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:08:59 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 19:10:23 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:10:25 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:10:25 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:10:25 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:10:25 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T23:10:25.618Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608899e14c2383001733e17c",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T23:10:25.618Z"
+}
+2021-04-27 19:10:25 INFO  Utilities:36 - Sending a **GET** request to /customers/6085a42086b589001735783b
+2021-04-27 19:10:26 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:10:26 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:10:26 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:10:26 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6085a42086b589001735783b",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-27 19:10:48 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-27 19:10:50 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:10:50 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:10:50 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:10:50 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-27T23:10:50.634Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "608899fa4c2383001733e17d",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-27T23:10:50.634Z"
+}
+2021-04-27 19:10:50 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-27 19:10:51 INFO  Utilities:51 - Expected value is: 200
+2021-04-27 19:10:51 INFO  Utilities:52 - Acutal value is: 200
+2021-04-27 19:10:51 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-27 19:10:51 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "608899fa4c2383001733e17d",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-28 17:15:42 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-28 17:15:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:15:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:15:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:15:45 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-28T21:15:45.595Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6089d081bd971a00172bd555",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-28T21:15:45.595Z"
+}
+2021-04-28 17:15:45 INFO  Utilities:36 - Sending a **GET** request to /customers/<userId>
+2021-04-28 17:15:45 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:15:45 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:15:45 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:15:45 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6089d081bd971a00172bd555",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-28 17:16:44 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-28 17:16:47 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:16:47 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:16:47 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:16:47 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-28T21:16:47.720Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6089d0bfbd971a00172bd556",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-28T21:16:47.720Z"
+}
+2021-04-28 17:16:47 INFO  Utilities:36 - Sending a **GET** request to /customers/<xyz>
+2021-04-28 17:16:47 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:16:47 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:16:47 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:16:47 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6089d0bfbd971a00172bd556",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-28 17:20:33 INFO  Utilities:36 - Sending a **POST** request to /customers
+2021-04-28 17:20:36 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:20:36 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:20:36 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:20:36 INFO  Utilities:42 - {
+    "lastName": "Obaidulla",
+    "firstName": "Md",
+    "createdAt": "2021-04-28T21:20:36.572Z",
+    "phone": "3475612578",
+    "__v": 0,
+    "_id": "6089d1a4bd971a00172bd557",
+    "email": "mitul.li@yahoo.com",
+    "updatedAt": "2021-04-28T21:20:36.572Z"
+}
+2021-04-28 17:20:36 INFO  Utilities:36 - Sending a **GET** request to /customers/<xyz>
+2021-04-28 17:20:36 INFO  Utilities:51 - Expected value is: 200
+2021-04-28 17:20:36 INFO  Utilities:52 - Acutal value is: 200
+2021-04-28 17:20:36 INFO  Utilities:54 - The actual and expected value is matched. 
+2021-04-28 17:20:36 INFO  Utilities:42 - {
+    "firstName": "Md",
+    "lastName": "Obaidulla",
+    "phone": "3475612578",
+    "userId": "6089d1a4bd971a00172bd557",
+    "email": "mitul.li@yahoo.com"
+}
+2021-04-28 17:20:36 INFO  Utilities:63 - Expected value is: Md
+2021-04-28 17:20:36 INFO  Utilities:64 - Acutal value is: Md
+2021-04-28 17:20:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-28 17:20:36 INFO  Utilities:63 - Expected value is: Obaidulla
+2021-04-28 17:20:36 INFO  Utilities:64 - Acutal value is: Obaidulla
+2021-04-28 17:20:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-28 17:20:36 INFO  Utilities:63 - Expected value is: 3475612578
+2021-04-28 17:20:36 INFO  Utilities:64 - Acutal value is: 3475612578
+2021-04-28 17:20:36 INFO  Utilities:66 - The actual and expected value is matched. 
+2021-04-28 17:20:36 INFO  Utilities:63 - Expected value is: mitul.li@yahoo.com
+2021-04-28 17:20:36 INFO  Utilities:64 - Acutal value is: mitul.li@yahoo.com
+2021-04-28 17:20:36 INFO  Utilities:66 - The actual and expected value is matched. 

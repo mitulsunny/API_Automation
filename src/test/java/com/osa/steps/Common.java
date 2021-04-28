@@ -18,6 +18,7 @@ import cucumber.api.java.en.When;
 import io.restassured.response.Response;
 
 public class Common {
+	 String myValue="";
 	public static void main(String[] args) {
 		HashMap<String,String> h=new HashMap<String,String>();
 		h.put("a", "AAA");
@@ -31,11 +32,14 @@ public class Common {
 	}
 	@When("^I am sending \"([^\"]*)\" request to this endpoint \"([^\"]*)\"$")
 	public void i_am_sending_request_to_this_endpoint(String requestType, String endpoint, DataTable data) throws Throwable {
-		 AppContains.LOG.info("Sending a "+requestType+" to "+endpoint);
+
+		 AppContains.LOG.info("Sending a **"+requestType+"** request to "+endpoint);
 		 Response res_get=APIs.executeRequest(requestType,endpoint, data);
 		 Utilities.verifyStatu(res_get.getStatusCode(), Integer.parseInt(data.raw().get(0).get(2)));
 		 cv.getResponse(res_get);
 		 AppContains.LOG.info(Format.prettyPrint(res_get));
+		 
+		 
 	}
 	@Then("^Verifying the following values$")
 	public void verifying_the_following_values(DataTable data) throws Throwable {

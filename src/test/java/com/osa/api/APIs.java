@@ -1,6 +1,8 @@
 package com.osa.api;
 
 import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 import java.util.Map.Entry;
 
 import org.json.JSONObject;
@@ -16,6 +18,7 @@ import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
 public class APIs {
+	static HashMap<String,String> variables=new HashMap<String,String>();
 	/**
 	 * POST
 	 * GET
@@ -25,22 +28,22 @@ public class APIs {
 	 * GET
 	 * @param args
 	 */
-	public static void main(String[] args) {
-	
-		
-		HashMap<String,String> hm=new HashMap<String,String>();
-	    hm.put("firstName", "Md");
-	    hm.put("lastName","Karim");
-	    hm.put("phone","4444444444");
-	    hm.put("email", "karim@yahoo.com");
-	    String payload=Utilities.getJsonObject(hm).toString();
-	  
-		HashMap<String,String> hm1=new HashMap<String,String>();
-	    hm1.put("firstName", "Rahim");
-	    hm1.put("lastName","Miha");
-	    hm1.put("phone","5555555555");
-	    hm1.put("email", "rahim@gmail.com");
-	    String payload_patch=Utilities.getJsonObject(hm1).toString();
+//	public static void main(String[] args) {
+//	
+//		
+//		HashMap<String,String> hm=new HashMap<String,String>();
+//	    hm.put("firstName", "Md");
+//	    hm.put("lastName","Karim");
+//	    hm.put("phone","4444444444");
+//	    hm.put("email", "karim@yahoo.com");
+//	    String payload=Utilities.getJsonObject(hm).toString();
+//	  
+//		HashMap<String,String> hm1=new HashMap<String,String>();
+//	    hm1.put("firstName", "Rahim");
+//	    hm1.put("lastName","Miha");
+//	    hm1.put("phone","5555555555");
+//	    hm1.put("email", "rahim@gmail.com");
+//	    String payload_patch=Utilities.getJsonObject(hm1).toString();
 	    
 	    
 //	    //POST
@@ -65,9 +68,11 @@ public class APIs {
 //	    AppContains.LOG.info("This is DELETE call URL "+res_patch); 
 //		//Response res_delete=executeRequest("delete",patch_url);
 //		AppContains.LOG.info("This is DELETE call response "+Format.prettyPrint(res_delete));
-		}
-	public static Response executeRequest(String request, String url, DataTable data) {
-		
+	//	}
+	static HashMap<String,String> vari=new HashMap<String,String>();
+	public static Response executeRequest(String request, String urls, DataTable data) {
+		 HashMap<String,String> map= RequestHelper.manageVariable(data);
+		String url=buildUrl(urls);
 		Response res=null; 
 		String req=request.toLowerCase();
 		if(req.equals("get")) {
@@ -81,8 +86,16 @@ public class APIs {
 		}else if(req.equals("delete")) {
 			res=DELETE(url);
 		}
+		setVariablesValue(res,map);
 		//return new JSONObject(res.asString()).toString(4);
 		return res;
+	}
+	public static void setVariablesValue(Response res,HashMap<String,String> map){
+		for(Map.Entry<String, String> kv:map.entrySet()) {
+			try {
+			variables.put(kv.getKey(), res.getBody().jsonPath().getString(kv.getValue()).toString());
+			}catch(Exception e) {}
+		}
 	}
 	public static Response executeRequest(String request, String url, String payload) {
 		Response res=null; 
@@ -133,5 +146,40 @@ public class APIs {
 				.patch(endpoint);
 		return res;
 	}
+	
+	public static void main(String[] args) {
+		String s="/customers/<userId>";
+		String p=buildUrl(s);
+		System.out.println(p);
+		
+	}
+	public static HashMap<String,String> getVariable(){
+		HashMap<String,String> hm=new HashMap<String,String>();
+		hm.put("userId", "45656787");
+		hm.put("url", "11111111");
+		return hm;
+	}
+/**
+ * This method will take full url and split the url 
+ * based on <> sign and get the value for the key is sent from url
+ * Then re-generate the url.
+ * @param urls
+ * @return
+ */
+	public static String buildUrl(String urls){
+		//HashMap<String,String> variables=manageVariable(data);
+		System.out.println(variables.get("userId")+"OOOOOOOOOOOOOOOOOOO");
+		String fullUrl=null;
+		String firstPart, lastPart;
+		if(urls.contains("<")) {
+			firstPart=urls.substring(0,urls.indexOf('<'));
+			lastPart=urls.subSequence(urls.indexOf('<')+1, urls.indexOf('>')).toString();
+		    fullUrl=firstPart+variables.get(lastPart);
+		}else {
+			fullUrl=urls;
+		}
+		return fullUrl;
+	}
+
 	
 }

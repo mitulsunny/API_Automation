@@ -7,14 +7,18 @@ import java.util.List;
 import com.osa.utility.Utilities;
 
 import cucumber.api.DataTable;
+import cucumber.api.java.it.Data;
+import groovy.json.internal.Exceptions;
 import io.restassured.response.Response;
 
 public class RequestHelper {
-Response res=null;
-public void getResponse(Response res) {
-	this.res=res;
+static Response res=null;
+public void getResponse(Response resp) {
+	res=resp;
 }
+
 public HashMap<String,List<UsersValues>> verifyResponse(DataTable dataTable) {
+
 	List<List<String>>data= dataTable.raw();
 	HashMap<String,List<UsersValues>> userInput=new HashMap<String,List<UsersValues>>();
 	List<UsersValues> validation=new ArrayList<UsersValues>();
@@ -33,5 +37,35 @@ public HashMap<String,List<UsersValues>> verifyResponse(DataTable dataTable) {
 public  void verifyAPIRes(String xpath,String expectedValue) {
 	String actualValue=res.getBody().jsonPath().getString(xpath);
 	Utilities.verifyStatu(expectedValue, actualValue);
+}
+
+/**
+ * This method will take dataTable and return hashMap with key and value
+ * @param dataTable
+ * @return
+ */
+public static HashMap<String,String> manageVariable(DataTable dataTable) {
+	List<List<String>>data= dataTable.raw();
+	HashMap<String,String> hm=new HashMap<String,String>();
+	for(int i=0; i<data.size(); i++) {
+		if(data.get(i).get(0).toLowerCase().equals("var")) {
+			try {
+			hm.put(data.get(i).get(2).toString(),data.get(i).get(1).toString());
+			}catch(Exception e) {
+				hm.put(data.get(i).get(2).toString(),null);	
+			}
+		}
+	}
+	return hm;
+}
+public static String getValueFromResponse(String xpath) {
+String value="";
+try {
+ value=res.getBody().jsonPath().getString(xpath).toString();
+}catch(Exception e){
+	
+}
+
+ return value;
 }
 }
